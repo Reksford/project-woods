@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="240"
+   height="240"
+   viewBox="0 0 120 120"
+   xml:space="preserve"
+   id="svg287"
+   sodipodi:docname="Bobber-tiny-1b.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview289"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="3.4666667"
+   inkscape:cx="6.201923"
+   inkscape:cy="150.72115"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg287"><inkscape:grid
+     type="xygrid"
+     id="grid371" /></sodipodi:namedview>
+<desc
+   id="desc265">Created with Fabric.js 3.6.3</desc>
+<defs
+   id="defs267">
+</defs>
+
+<g
+   transform="matrix(0.81,0,0,1.49,57.03,52.895)"
+   id="g273">
+<path
+   style="opacity:1;fill:#dc2a2d;fill-opacity:0.93;fill-rule:nonzero;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+   transform="translate(-48,-48)"
+   d="M 9.113,65.022 C 11.683,45.575 28.302,30.978 48,30.978 c 19.696,0 36.316,14.598 38.887,34.045 H 9.113 Z"
+   stroke-linecap="round"
+   id="path271" />
+</g>
+<g
+   transform="matrix(1.01,0,0,1,56.81,74.125)"
+   id="g277">
+<path
+   style="opacity:1;fill:#ffffff;fill-rule:nonzero;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+   transform="translate(-57.5,-74)"
+   d="M 27,80 28,68 87.5,68.5 88,79.5 27,80"
+   stroke-linecap="round"
+   id="path275" />
+</g>
+<g
+   transform="translate(58.72,81.875)"
+   id="g281"
+   style="stroke:#6677a4;stroke-opacity:1">
+<path
+   style="opacity:1;fill:none;fill-rule:nonzero;stroke:#6677a4;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   vector-effect="non-scaling-stroke"
+   transform="translate(-57.72,-82.75)"
+   d="m 24.5,75.5 q -40,5.5 27,14.5 81,-6 38.5,-14.5"
+   stroke-linecap="round"
+   id="path279" />
+</g>
+<g
+   transform="matrix(0.97,0,0,0.95,57.09,83.625)"
+   id="g285"
+   style="stroke:#7685ac;stroke-opacity:1">
+<path
+   style="opacity:1;fill:none;fill-rule:nonzero;stroke:#7685ac;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   vector-effect="non-scaling-stroke"
+   transform="translate(-57.48,-85.28)"
+   d="m 22.5,72.5 q -47,7 17.5,23 Q 64.5,101 79,95 139,82.5 92,71"
+   stroke-linecap="round"
+   id="path283" />
+</g>
+</svg>

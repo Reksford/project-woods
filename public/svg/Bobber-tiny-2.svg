@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="240"
+   height="240"
+   viewBox="0 0 120 120"
+   xml:space="preserve"
+   id="svg1733"
+   sodipodi:docname="Bobber-tiny-2b.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview1735"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="3.4666667"
+   inkscape:cx="63.028846"
+   inkscape:cy="119.85577"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1733"><inkscape:grid
+     type="xygrid"
+     id="grid1817" /></sodipodi:namedview>
+<desc
+   id="desc1703">Created with Fabric.js 3.6.3</desc>
+<defs
+   id="defs1705">
+</defs>
+
+<g
+   transform="matrix(0.81,0,0,1.41,58.03,55.878077)"
+   id="g1711">
+<path
+   style="opacity:1;fill:#dc2a2d;fill-opacity:0.93;fill-rule:nonzero;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+   transform="translate(-48,-48)"
+   d="M 9.113,65.022 C 11.683,45.575 28.302,30.978 48,30.978 c 19.696,0 36.316,14.598 38.887,34.045 H 9.113 Z"
+   stroke-linecap="round"
+   id="path1709" />
+</g>
+<g
+   transform="matrix(1.01,0,0,0.88,57.81,75.858077)"
+   id="g1715">
+<path
+   style="opacity:1;fill:#ffffff;fill-rule:nonzero;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+   transform="translate(-57.5,-74)"
+   d="M 27,80 28,68 87.5,68.5 88,79.5 27,80"
+   stroke-linecap="round"
+   id="path1713" />
+</g>
+<g
+   transform="matrix(0.97,0,0,0.86,58.12,80.798077)"
+   id="g1719"
+   style="stroke:#5b6d9b;stroke-opacity:1">
+<path
+   style="opacity:1;fill:none;fill-rule:nonzero;stroke:#5b6d9b;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   vector-effect="non-scaling-stroke"
+   transform="translate(-57.72,-82.75)"
+   d="m 24.5,75.5 q -40,5.5 27,14.5 81,-6 38.5,-14.5"
+   stroke-linecap="round"
+   id="path1717" />
+</g>
+<g
+   transform="matrix(1.02,0,0,0.99,56.7,83.678077)"
+   id="g1723"
+   style="stroke:#697cac;stroke-opacity:1">
+<path
+   style="opacity:1;fill:none;fill-rule:nonzero;stroke:#697cac;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   vector-effect="non-scaling-stroke"
+   transform="translate(-57.48,-85.28)"
+   d="m 22.5,72.5 q -47,7 17.5,23 Q 64.5,101 79,95 139,82.5 92,71"
+   stroke-linecap="round"
+   id="path1721" />
+</g>
+<g
+   transform="translate(23,70.798077)"
+   id="g1727"
+   style="stroke:#99a6bd;stroke-opacity:1">
+<line
+   style="opacity:1;fill:#000000;fill-rule:nonzero;stroke:#99a6bd;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   vector-effect="non-scaling-stroke"
+   x1="-2.5"
+   y1="0.25"
+   x2="2.5"
+   y2="-0.25"
+   id="line1725" />
+</g>
+<g
+   transform="matrix(1.33,0,0,1.33,91.35,69.388077)"
+   id="g1731"
+   style="stroke:#99a6bd;stroke-opacity:1">
+<line
+   style="opacity:1;fill:#000000;fill-rule:nonzero;stroke:#99a6bd;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   vector-effect="non-scaling-stroke"
+   x1="1.75"
+   y1="0.5"
+   x2="-1.75"
+   y2="-0.5"
+   id="line1729" />
+</g>
+</svg>

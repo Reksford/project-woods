@@ -1,5 +1,6 @@
 // import {useState} from 'react';
-import { Card, Nav } from 'react-bootstrap';
+import Nav from 'react-bootstrap/Nav';
+import Card from 'react-bootstrap/Card';
 
 const Sidebar = (props) => {
   return (

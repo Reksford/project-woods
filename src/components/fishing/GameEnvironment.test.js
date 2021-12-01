@@ -1,4 +1,4 @@
-import Fish from '../game/fish';
+import Fish from '../../game/fish';
 
 describe('Fish obj', () => {
 

@@ -1,11 +1,10 @@
 import {useState, useEffect, useCallback} from 'react';
-import { useFeed } from '../providers/FeedProvider';
-import GameSvg from './GameSvg';
-import GameCanvas from './GameCanvas';
+import { useFeed } from '../../providers/FeedProvider';
 import BobberDisplay from './BobberDisplay';
 import Fisherman from './Fisherman';
+import FeedPopup from './FeedPopup';
 
-import Fish from '../game/fish';
+import Fish from '../../game/fish';
 
 const GameDisplay = () => {
   const { sendFish } = useFeed();
@@ -53,7 +52,7 @@ const GameDisplay = () => {
         sendFish(adjustFish(potentialCatch));
         setSizeOffset(null);
       }
-    },[potentialCatch, sizeOffset])
+    },[potentialCatch, sizeOffset, sendFish, adjustFish])
 
   return (
     <div className="col-10 flex-column flex-grow-1 fish-environment">
@@ -68,6 +67,7 @@ const GameDisplay = () => {
         current={currentPhase}
         clicked={fishingHandler}
         />
+      <FeedPopup />
     </div>
   )
 }

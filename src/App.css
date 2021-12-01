@@ -46,3 +46,23 @@
   height: 480px;
   width: 480px;
 }
+
+.feed-popup  {
+  position: fixed;
+  bottom: 0.4em;
+  right: 0.4em;
+  background-color: #111;
+  color: bisque;
+  padding: 1em;
+  width: 360px;
+  height: 3.5em;
+  border: solid 2px #eee;
+  border-radius: 6px;
+  /* animation: fadeOut linear 5s;
+  opacity: 0; */
+}
+
+@keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}

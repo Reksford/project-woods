@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {useInterval} from '../hooks/useInterval';
+import {useInterval} from '../../hooks/useInterval';
 
 //Returns two seperate svgs per state to simulate animation.
 const Bobber = ({status, current}) => {
@@ -23,6 +23,9 @@ const Bobber = ({status, current}) => {
           break;
         case 'catch':
             frame ? svg = <img src="/svg/Bobber-catch-1.svg" alt="Fish hooked!" /> : svg = <img src="/svg/Bobber-catch-2.svg" alt="Fish hooked!" />
+          break;
+        default:
+            svg = <img src="/svg/Bobber-idle-1.svg" alt="Bobber idle" />
           break;
       }
       return svg;

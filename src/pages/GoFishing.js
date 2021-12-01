@@ -1,6 +1,6 @@
 import Sidebar from '../components/Sidebar.js';
 import Feed from '../components/liveFeed/Feed';
-import GameEnvironment from '../components/GameEnvironment';
+import GameEnvironment from '../components/fishing/GameEnvironment';
 import {SocketProvider} from '../providers/SocketProvider';
 import {FeedProvider} from '../providers/FeedProvider';
 

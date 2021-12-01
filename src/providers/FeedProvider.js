@@ -11,12 +11,13 @@ export function FeedProvider({children}) {
   const {socket} = useSocket();
   const [textFeed, setTextFeed] = useState([]);
   const [nickname, setNickname] = useState(null);
+  const [recentCatch, setRecentCatch] = useState();
 
  //this sends a message to the server of type 'new fish'
   const emitFish = (fish) => {
     if (socket == null || nickname == null) {
       addFishToFeed('You', fish);
-      console.log(fish);
+      setRecentCatch(fish);
     } else {
       socket.emit('new fish', nickname, fish);
     }
@@ -41,7 +42,8 @@ export function FeedProvider({children}) {
     sendFish: emitFish,
     textFeed,
     nickname,
-    setNickname
+    setNickname,
+    recentCatch
   }
 
   return (

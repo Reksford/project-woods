@@ -1,5 +1,6 @@
-import { useRef } from 'react'
-import { Form, Button } from 'react-bootstrap'
+import { useRef } from 'react';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import { useFeed } from '../../providers/FeedProvider';
 
 const Login = () => {

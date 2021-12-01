@@ -1,4 +1,4 @@
-import { Form } from 'react-bootstrap'
+import Form from 'react-bootstrap/Form'
 import Login from './Login';
 import ActiveFeed from './ActiveFeed';
 import { useFeed } from '../../providers/FeedProvider';

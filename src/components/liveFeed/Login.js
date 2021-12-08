@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useState, useRef } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useFeed } from '../../providers/FeedProvider';
@@ -6,18 +6,28 @@ import { useFeed } from '../../providers/FeedProvider';
 const Login = () => {
   const {setNickname} = useFeed();
   const nameRef = useRef()
+  const [form, setForm] = useState(<Form.Control type="text" ref={nameRef} placeholder="Enter a Nickname" required />)
 
-  function handleSubmit(e) {
+  function isValid(name) {
+    return name.length <= 12 && name.length > 0
+  }
+
+  function submitHandler(e) {
     e.preventDefault()
     let nickname = nameRef.current.value
-    //nickname control
-    setNickname(nickname);
+                   .trim().replaceAll(/([^\w])/g, "_");
+    if (isValid(nickname)) {
+      setNickname(nickname);
+    } else {
+      setForm(<Form.Control type="text" ref={nameRef} placeholder="Enter a Nickname" required isInvalid/>)
+    }
   }
 
   return (
-    <Form onSubmit={handleSubmit} className="w-100" style={{padding: '.5rem 1rem'}}>
+    <Form onSubmit={submitHandler} className="w-100" style={{padding: '.5rem 1rem'}}>
       <Form.Group>
-        <Form.Control type="text" ref={nameRef} placeholder="Enter a Nickname" required />
+        {form}
+        <Form.Control.Feedback type="invalid">Username must be 1-12 alphanumeric characters</Form.Control.Feedback>
       </Form.Group>
       <Button type="submit" className="mr-2">Enter</Button>
     </Form>

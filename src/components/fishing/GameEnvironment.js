@@ -55,7 +55,7 @@ const GameDisplay = () => {
     },[potentialCatch, sizeOffset, sendFish, adjustFish])
 
   return (
-    <div className="col-10 flex-column flex-grow-1 fish-environment">
+    <div className="col-9 flex-column flex-grow-1 fish-environment">
       <BobberDisplay
         status={fishingStatus}
         setStatus={setFishingStatus}

@@ -11,7 +11,7 @@ const GoFishing = () => {
     <SocketProvider>
       <FeedProvider>
         <div className="d-flex">
-          <Sidebar cardText={text}>
+          <Sidebar cardText={text} titleText="Project Woods">
             <Feed />
           </Sidebar>
           <GameEnvironment />

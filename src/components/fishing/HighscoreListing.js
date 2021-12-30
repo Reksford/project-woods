@@ -1,7 +1,7 @@
 
 
 const HighscoreListing = (props) => {
-//props expects an array of objs, {fish, player}
+//props expects an array of objs: {ID, fish_name, fish_size, player_nickname}
   let title;
   switch (props.type) {
     case 'small':
@@ -19,9 +19,9 @@ const HighscoreListing = (props) => {
   if (props.arr.length > 0) {
     content = props.arr.map((entry) => {
       return(
-        <div className="Highscore-entry" key={entry.fish.name}>
-          <h3>{entry.fish.name}</h3>
-          <p>{entry.fish.size}cm caught by '{entry.name}'</p>
+        <div className="Highscore-entry" key={entry.ID}>
+          <h3>{entry.fish_name}</h3>
+          <p>{entry.fish_size.toFixed(2)}cm caught by '{entry.player_nickname}'</p>
         </div>
       )
     })

@@ -14,7 +14,8 @@ export function SocketProvider ({children}) {
 
   useEffect(() => {
     if (!hasSocket) return
-    const newSocket = io(process.env.REACT_APP_SOCKET_ENDPOINT);
+    const newSocket = io(process.env.REACT_APP_HEROKU_APP);
+    // const newSocket = io('localhost:5000');
     setSocket(newSocket);
 
     return () => newSocket.close()

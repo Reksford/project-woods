@@ -27,10 +27,15 @@
 
 .bobber-display {
   position: fixed;
-  top: 10;
+  top: 10px;
   left: 50%;
-  height: 240px;
-  width: 240px;
+  height: 25%;
+  width: 25%;
+}
+
+.bobber-display img {
+  height: 100%;
+  width: 100%;
 }
 
 .fish-environment {
@@ -43,9 +48,14 @@
 .fisherman-display {
   position: fixed;
   top: 35%;
-  left: 50%;
-  height: 480px;
-  width: 480px;
+  left: 45%;
+  width: 50%;
+  height: 64%;
+}
+
+.fisherman-display img {
+  max-height: 480px;
+  height: 100%
 }
 
 .feed-popup  {

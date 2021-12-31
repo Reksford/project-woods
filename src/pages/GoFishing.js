@@ -5,13 +5,13 @@ import {SocketProvider} from '../providers/SocketProvider';
 import {FeedProvider} from '../providers/FeedProvider';
 
 const GoFishing = () => {
-  const text = "Enjoy fishing! Activate the live feed to share your catches with other players."
+  const text = "Click on the fisherman to cast, click again at the right time to catch a fish. Activate the live feed and share your catches with other players. Enjoy fishing!"
 
   return (
     <SocketProvider>
       <FeedProvider>
         <div className="d-flex">
-          <Sidebar cardText={text} titleText="Project Woods">
+          <Sidebar cardText={text} titleText="Go Fishing">
             <Feed />
           </Sidebar>
           <GameEnvironment />

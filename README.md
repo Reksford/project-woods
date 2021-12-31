@@ -1,40 +1,19 @@
-# Rexford Borawski
+# Project Woods
 
-This is a basic React site for hosting any of my various builds. Currently hosting a small fishing mini-game.
+As a man who's life ambition is to create the ultimate fishing adventure (hyperbole, but stick with me here) I wanted to prototype a simple fishing minigame. More importantly I wanted to broaden my understanding of React, explore new technologies, and revisit some libraries I haven't used in a while.
 
-## Available Scripts
+## Sharpening Skills
 
-In the project directory, you can run:
+The fishing minigame is achieved through a bit of state experimentation. It's not as ideal as having made the game using a canvas element but I wanted a lot of practice changing state and passing information up and down components. I also got the opportunity to use aspects of React that I haven't had much experience with such as Refs, custom hooks, and providers.
 
-### `npm start`
+For a previous project I made a simple chat app using Socket.io and Express. I then rebuilt a modified version to support a live feed that would display player's catches in real time. The back-end also stores the biggest catches in a SQL table using Postgres. I then deployed the server using Heroku where it is hopefully still up and running (clearly I don't pay them). The back-end is in a separate repo however, this repo is the client side code.
 
-Runs the app in the development mode.\
+For the front-end styling I tried to use as much Bootstrap as I could remember. It's been a while since I last used Bootstrap on a project and I appreciate how much time it saves on styling, but one has to keep a certain familiarity up to capitalize on that. In the end there is a mix of Bootstrap classes and components with my own CSS holding this project together.
+
+I drew the SVG assets for this project using an online SVG editor. I'm not much of an artist and SVGs in particular have been a mystery to me for some time now. But I watched through a Udemy class and then gave it my best shot. I'm not in *love* with the final outcome, but it does have a certain charm that I can be happy with. When the fishing pole turns is when you have a bite by the way.
+
+## Getting Started
+
+This is a React app made using `npx create-react-app` so in the project directory you can run `npm install` to install dependencies then `npm start` to runs the app in development mode.
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.

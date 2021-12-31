@@ -7,8 +7,8 @@ const ActiveFeed = (props) => {
   return (
     <div className="d-flex flex-column flex-grow-1" style={{padding: '.5rem 1rem'}}>
       <span>Fishing as {props.name}...</span>
-      <div className="flex-grow-1 overflow-auto" style={{maxHeight: '500px'}}>
-        <div className="d-flex flex-column align-items-start justify-content-end liveFeedDiv">
+      <div className="flex-grow-1 overflow-auto d-flex">
+        <div className="d-flex flex-column align-items-start justify-content-end flex-grow-1 liveFeedDiv">
           {textFeed.map((text, idx) => {
               return <span className="liveFeedText" key={idx}>{text}</span>
           })}

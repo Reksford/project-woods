@@ -1,7 +1,7 @@
 import {useFeed} from '../../providers/FeedProvider';
 
 const ActiveFeed = (props) => {
-  // const {sendFish, textFeed} = useFeed();
+  const { textFeed } = useFeed();
   // let tempFish = {name: 'flounder', size: 12.5, type: 'medium'}
   return (
     <div className="d-flex flex-column flex-grow-1" style={{padding: '.5rem 1rem'}}>

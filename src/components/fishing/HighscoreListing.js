@@ -13,6 +13,8 @@ const HighscoreListing = (props) => {
     case 'large':
       title = <h1>Large</h1>;
       break;
+    default:
+      title = <h1>Fish</h1>;
   }
 
   let content;
